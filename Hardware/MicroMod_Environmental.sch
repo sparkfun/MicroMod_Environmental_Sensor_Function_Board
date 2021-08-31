@@ -4157,6 +4157,12 @@ Operating current @ 3.3V: 3.0 mA</text>
 <pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
 <wire x1="68.58" y1="76.2" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="142.24" y1="190.5" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="PWR\" gate="G$1" pin="2"/>
+<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
+<wire x1="139.7" y1="190.5" x2="139.7" y2="200.66" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -4273,14 +4279,6 @@ Operating current @ 3.3V: 3.0 mA</text>
 <wire x1="96.52" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91" style="longdash"/>
 <wire x1="93.98" y1="111.76" x2="93.98" y2="116.84" width="0.1524" layer="91" style="longdash"/>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
-</segment>
-</net>
-<net name="3.3V1" class="2">
-<segment>
-<wire x1="142.24" y1="190.5" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="200.66" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="PWR\" gate="G$1" pin="2"/>
-<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="N$10" class="0">
