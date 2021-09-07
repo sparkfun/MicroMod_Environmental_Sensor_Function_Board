@@ -18721,7 +18721,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
-<part name="LED2" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="LED1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="PWR\" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -18854,7 +18854,7 @@ Operating current @ 3.3V: 3.0 mA</text>
 <attribute name="NAME" x="163.703" y="192.659" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="155.448" y="191.008" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="LED2" gate="G$1" x="170.18" y="190.5" smashed="yes" rot="R90">
+<instance part="LED1" gate="G$1" x="170.18" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="179.832" y="190.119" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="178.308" y="191.008" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
@@ -19147,7 +19147,7 @@ Operating current @ 3.3V: 3.0 mA</text>
 <segment>
 <wire x1="182.88" y1="190.5" x2="175.26" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="190.5" x2="182.88" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -19194,7 +19194,7 @@ Operating current @ 3.3V: 3.0 mA</text>
 <segment>
 <wire x1="167.64" y1="190.5" x2="165.1" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$1" class="0">
