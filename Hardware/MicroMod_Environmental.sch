@@ -10350,6 +10350,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="1" x="0" y="0" dx="0.2" dy="0.2" layer="1" roundness="100" stop="no" cream="no"/>
 <circle x="0" y="0" radius="0.06" width="0.1524" layer="29"/>
 </package>
+<package name="ORDERING_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Indicates that the PCB material, colors, copper weights, and/or thickness are non-standard.&lt;/p&gt;
+&lt;p&gt;(Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.)&lt;/p&gt;
+&lt;p&gt;Use 0.7" Vector font @ 8% ratio</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Ordering Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
+<package name="PRODUCTION_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Placeholder for notes on unique production processes, which may include special wash or depaneling instructions.&lt;/p&gt;</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Production Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_LEDGER">
@@ -15037,6 +15065,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
+<symbol name="SPECIAL_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering/Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Symbol for special PCB ordering instructions or unique production process warnings.&lt;/p&gt;
+&lt;p&gt;PCB Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.&lt;/p&gt;
+&lt;p&gt;Unique production processes may include special wash or depaneling instructions.&lt;/p&gt;</description>
+<text x="1.27" y="0.6985" size="1.27" layer="94" font="vector" ratio="20">Special Instructions</text>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LEDGER" prefix="FRAME">
@@ -15188,6 +15227,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technologies>
 </device>
 <device name="0.2MM" package="FIDUCIAL-0.2MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPECIAL_INSTRUCTIONS" prefix="LOGO">
+<description>&lt;h3&gt;Special Ordering/Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Symbol for special PCB ordering instructions or unique production process warnings.&lt;/p&gt;
+&lt;p&gt;&lt;table border=1 cellpadding=1&gt;
+&lt;tr&gt;&lt;th&gt;Ordering Instructions&lt;/th&gt;&lt;th&gt;Production Instructions&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;p&gt;&lt;b&gt;Types of information that should be added to box:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Copper weight&lt;/li&gt;&lt;li&gt;Soldermask color&lt;/li&gt;&lt;li&gt;Silk color&lt;/li&gt;&lt;li&gt;PCB thickness&lt;/li&gt;&lt;li&gt;Number of layers&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;PCB Standard:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;1.6mm FR4&lt;/li&gt;&lt;li&gt;1 oz copper&lt;/li&gt;&lt;li&gt;immersion silver plating&lt;/li&gt;&lt;li&gt;red soldermask&lt;/li&gt;&lt;li&gt;white silkscreen&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;b&gt;Types of information that should be added to box:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Special wash requirements&lt;/li&gt;&lt;li&gt;Depaneling instructions&lt;/li&gt;&lt;li&gt;Humidification&lt;/li&gt;&lt;li&gt;Glue curing&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Default text settings:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;0.07 inch&lt;/li&gt;
+&lt;li&gt;9% ratio&lt;/li&gt;
+&lt;li&gt;50% line distance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPECIAL_INSTRUCTIONS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-ORDERING" package="ORDERING_INSTRUCTIONS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PRODUCTION" package="PRODUCTION_INSTRUCTIONS">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -18766,6 +18844,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-ORDERING"/>
 </parts>
 <sheets>
 <sheet>
@@ -18990,6 +19069,7 @@ Operating current @ 3.3V: 3.0 mA</text>
 <instance part="FD2" gate="G$1" x="419.1" y="30.48" smashed="yes"/>
 <instance part="FD3" gate="G$1" x="419.1" y="33.02" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="421.64" y="30.48" smashed="yes"/>
+<instance part="LOGO3" gate="G$1" x="391.16" y="30.48" smashed="yes"/>
 </instances>
 <busses>
 </busses>
