@@ -16,7 +16,7 @@ Repository Contents
 Documentation
 --------------
 
-* [Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library/all) - Basic information on how to install an Arduino library.
+* **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library/all)** - Basic information on how to install an Arduino library.
 * **Arduino Libraries**
   * **[SGP40](https://github.com/sparkfun/SparkFun_SGP40_Arduino_Library)**
   * **[SHTC3](https://github.com/sparkfun/SparkFun_SHTC3_Arduino_Library)**
