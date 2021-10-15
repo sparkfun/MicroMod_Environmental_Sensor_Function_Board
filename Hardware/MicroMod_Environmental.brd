@@ -1351,7 +1351,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="0603">
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
 <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
@@ -6273,15 +6273,15 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="REV" value="" x="12.7" y="-17.78" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J1" library="SparkFun-MicroMod-Function" package="M.2-CARD-E-22_FUNCTION_STANDARD" value="MICROMOD_STANDARD" x="0" y="19.05" smashed="yes" rot="R270"/>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="4.7k" x="11.049" y="13.081" smashed="yes" rot="R270">
+<element name="R1" library="SparkFun-Resistors" package="0603" value="2.2k" x="11.049" y="13.081" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.811" y="13.081" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="11.049" y="13.081" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="10.287" y="13.081" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="11.049" y="13.081" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" value="2.2k" x="10.287" y="13.081" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0603" value="4.7k" x="9.017" y="13.081" smashed="yes" rot="R270">
+<element name="R2" library="SparkFun-Resistors" package="0603" value="2.2k" x="9.017" y="13.081" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.779" y="13.081" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07857" x="9.017" y="13.081" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="8.255" y="13.081" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="RES-08272" x="9.017" y="13.081" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" value="2.2k" x="8.255" y="13.081" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="C5" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="16.637" y="31.242" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.075" y="31.242" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -6823,6 +6823,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="19,1,15a7a7acde6aa63b"/>
 <approved hash="19,1,f5a1faab6829e8e6"/>
 <approved hash="19,1,132a12e2d74b170e"/>
+<approved hash="23,1,7d211c071c977db1"/>
 </errors>
 </board>
 </drawing>
