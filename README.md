@@ -1,7 +1,7 @@
 SparkFun MicroMod Environmental Sensor Function Board
 ========================================
 
-[![SparkFun MicroMod Environmental Sensor Function Board](URL for picture of part)](https://www.sparkfun.com/products/18632)
+[![SparkFun MicroMod Environmental Sensor Function Board](https://cdn.sparkfun.com/assets/parts/1/8/1/4/8/18632-SparkFun_MicroMod_Environmental_Function_Board-01.jpg)](https://www.sparkfun.com/products/18632)
 
 [*SparkFun MicroMod Environmental Sensor Function Board (SEN-18632)*](https://www.sparkfun.com/products/18632)
 
