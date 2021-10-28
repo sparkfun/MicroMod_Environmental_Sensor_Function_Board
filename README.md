@@ -21,7 +21,7 @@ Documentation
   * **[SGP40](https://github.com/sparkfun/SparkFun_SGP40_Arduino_Library)**
   * **[SHTC3](https://github.com/sparkfun/SparkFun_SHTC3_Arduino_Library)**
   * **[STC3X](https://github.com/sparkfun/SparkFun_STC3x_Arduino_Library)**
-* **Hookup Guide** - Basic hookup guide
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/2001)** - Basic hookup guide
 
 
 Product Versions
