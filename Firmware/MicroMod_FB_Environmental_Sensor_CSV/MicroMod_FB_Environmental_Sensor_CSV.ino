@@ -17,7 +17,7 @@
      Example 2: PHT (SHTC3) Compensated CO2 Readings w/ STC31; Written by Paul Clark and based on earlier code by Nathan Seidle
      Example 1: Basic VOC Index w/ SGP40; Written by Paul Clark
 
-  Open a Serial Plotter at 115200 baud to view the readings!
+  Open a Serial Monitor/Plotter at 115200 baud to view the readings!
 
   Note: You may need to wait about ~5 minutes after starting up the code before VOC index
   has any values.
