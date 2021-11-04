@@ -4,13 +4,13 @@
   WRITTEN BY: Ho Yun "Bobby" Chan
   @ SparkFun Electronics
   DATE: 10/19/2021
-  GITHUB REPO: ______________________________
+  GITHUB REPO: https://github.com/sparkfun/MicroMod_Environmental_Sensor_Function_Board
   DEVELOPMENT ENVIRONMENT SPECIFICS:
     Firmware developed using Arduino IDE v1.8.12
 
   ========== DESCRIPTION==========
   This example code combines example codes from the SHTC3, STC31, and SGP40 libraries.
-  Most of the steps to obtain the measurements are the same as the example code. 
+  Most of the steps to obtain the measurements are the same as the example code.
   Generic object names were renamed (e.g. mySensor => mySGP40 and mySTC3x).
 
      Example 1: Basic Relative Humidity and Temperature Readings  w/ SHTC3; Written by Owen Lyke
@@ -19,21 +19,29 @@
 
   Open a Serial Monitor at 115200 baud to view the readings!
 
-  Note: You may need to wait about a minute after starting up the code before VOC index
-  has any values. 
+  Note: You may need to wait about ~5 minutes after starting up the code before VOC index
+  has any values.
 
   ========== HARDWARE CONNECTIONS ==========
-  MicroMod Artemis Processor Board => Qwiic Carrier => SHTC3, STC31, and SGP40 Breakouts
+  MicroMod Artemis Processor Board => MicroMod Main Board => MicroMod Environmental Function Board (with SHTC3, STC31, and SGP40)
 
   Feel like supporting open source hardware?
   Buy a board from SparkFun!
-       SHTC3 | https://www.sparkfun.com/products/16467
-       STC31 | https://www.sparkfun.com/products/18385
-       SGP40 | https://www.sparkfun.com/products/17729
+       MicroMod MicroMod Artemis Processor   | https://www.sparkfun.com/products/16401
+       MicroMod Main Board - Single          | https://www.sparkfun.com/products/18575
+       MicroMod Environmental Function Board | https://www.sparkfun.com/products/18632
+
+  You can also get the sensors individually.
+
+       Qwiic SHTC3 | https://www.sparkfun.com/products/16467
+       Qwiic STC31 | https://www.sparkfun.com/products/18385
+       Qwiic SGP40 | https://www.sparkfun.com/products/17729
 
   LICENSE: This code is released under the MIT License (http://opensource.org/licenses/MIT)
 
 ******************************************************************************/
+
+
 
 #include <Wire.h>
 
@@ -57,14 +65,15 @@ float temperature = 0.00; // Variable to keep track of SHTC3 relative humidity c
 void setup() {
 
   Serial.begin(115200);
+  while (!Serial) ; // Wait for Serial Monitor/Plotter to open for Processors with Native USB (i.e. SAMD51)
   Serial.println(F("Initializing Combined Example w/ SGP40, SHTC3, and STC31."));
   Wire.begin();
 
   //mySTC3x.enableDebugging(); // Uncomment this line to get helpful debug messages on Serial
   //mySGP40.enableDebugging(); // Uncomment this line to print useful debug messages to Serial
-  
 
-  
+
+
   if (mySHTC3.begin() != SHTC3_Status_Nominal)
   {
     Serial.println(F("SHTC3 not detected. Please check wiring. Freezing..."));
@@ -78,7 +87,7 @@ void setup() {
     while (1)
       ; // Do nothing more
   }
-  
+
   if (mySGP40.begin() == false)
   {
     Serial.println(F("SGP40 not detected. Check connections. Freezing..."));
@@ -142,7 +151,9 @@ void setup() {
   Serial.println(F("successful"));
 
   Serial.println(F("Note: Relative humidity and temperature compensation for the STC31 will be updated frequently in the main loop() function."));
-}
+
+} //end setup()
+
 
 
 
@@ -181,12 +192,10 @@ void loop() {
 
 
 
-
-
   //==============================
   //==========READ STC31==========
   //==============================
-  //minimum update rate = ?
+  //minimum update rate = 1Hz
 
 
   if (mySTC3x.setRelativeHumidity(RH) == false)
@@ -210,8 +219,6 @@ void loop() {
 
 
 
-
-
   //==============================
   //==========READ SGP40==========
   //==============================
@@ -222,19 +229,19 @@ void loop() {
 
 
 
-
-
   //================================
   //=========SPACE & DELAY==========
   //================================
-  Serial.println("");// Add some space between readings for the Serial Monitor
-  delay(1000); //Wait 1 second - the Sensirion VOC algorithm expects a sample rate of 1Hz
+  //Serial.println("");// Uncomment this line to add some space between readings for the Serial Monitor
+  delay(1000); //Wait 1 second - the Sensirion VOC and CO2 algorithms expects a sample rate of 1Hz
 
-}
+}//end loop()
 
 
 
-void errorDecoder(SHTC3_Status_TypeDef message)                             // The errorDecoder function prints "SHTC3_Status_TypeDef" resultsin a human-friendly way
+
+
+void errorDecoder(SHTC3_Status_TypeDef message)                             // The errorDecoder function prints "SHTC3_Status_TypeDef" results in a human-friendly way
 {
   switch (message)
   {

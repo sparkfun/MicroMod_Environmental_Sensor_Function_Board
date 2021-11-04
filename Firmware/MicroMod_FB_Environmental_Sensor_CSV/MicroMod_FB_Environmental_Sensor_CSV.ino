@@ -4,7 +4,7 @@
   WRITTEN BY: Ho Yun "Bobby" Chan
   @ SparkFun Electronics
   DATE: 10/19/2021
-  GITHUB REPO: ______________________________
+  GITHUB REPO: https://github.com/sparkfun/MicroMod_Environmental_Sensor_Function_Board
   DEVELOPMENT ENVIRONMENT SPECIFICS:
     Firmware developed using Arduino IDE v1.8.12
 
@@ -17,16 +17,21 @@
      Example 2: PHT (SHTC3) Compensated CO2 Readings w/ STC31; Written by Paul Clark and based on earlier code by Nathan Seidle
      Example 1: Basic VOC Index w/ SGP40; Written by Paul Clark
 
-  Open a Serial Monitor at 115200 baud to view the readings!
+  Open a Serial Plotter at 115200 baud to view the readings!
 
-  Note: You may need to wait about a minute after starting up the code before VOC index
+  Note: You may need to wait about ~5 minutes after starting up the code before VOC index
   has any values.
 
   ========== HARDWARE CONNECTIONS ==========
-  MicroMod Artemis Processor Board => Qwiic Carrier => SHTC3, STC31, and SGP40 Breakouts
+  MicroMod Artemis Processor Board => MicroMod Main Board => MicroMod Environmental Function Board (with SHTC3, STC31, and SGP40)
 
   Feel like supporting open source hardware?
   Buy a board from SparkFun!
+       MicroMod MicroMod Artemis Processor   | https://www.sparkfun.com/products/16401
+       MicroMod Main Board - Single          | https://www.sparkfun.com/products/18575
+       MicroMod Environmental Function Board | https://www.sparkfun.com/products/18632
+
+  You can also get the sensors individually.
        SHTC3 | https://www.sparkfun.com/products/16467
        STC31 | https://www.sparkfun.com/products/18385
        SGP40 | https://www.sparkfun.com/products/17729
@@ -35,13 +40,15 @@
 
 ******************************************************************************/
 
+
+
 #include <Wire.h>
 
 #include "SparkFun_SHTC3.h" //Click here to get the library: http://librarymanager/All#SparkFun_SHTC3
 SHTC3 mySHTC3; // Create an object of the SHTC3 class
 
 #include "SparkFun_STC3x_Arduino_Library.h" //Click here to get the library: http://librarymanager/All#SparkFun_STC3x
-STC3x mySTC3x; // Create an object of the mySTC3x class
+STC3x mySTC3x; // Create an object of the STC3x class
 
 #include "SparkFun_SGP40_Arduino_Library.h" // Click here to get the library: http://librarymanager/All#SparkFun_SGP40
 SGP40 mySGP40; //Create an object of the SGP40 class
@@ -56,11 +63,11 @@ float temperature = 0.00; // Variable to keep track of SHTC3 relative humidity c
 
 
 
-
-
 void setup() {
 
   Serial.begin(115200);
+  while (!Serial) ; // Wait for Serial Monitor/Plotter to open for Processors with Native USB (i.e. SAMD51)
+
 
 #if DEBUG
   Serial.println(F("Initializing Combined Example w/ SGP40, SHTC3, and STC31."));
@@ -193,7 +200,7 @@ void setup() {
   Serial.println(F("Note: Relative humidity and temperature compensation for the STC31 will be updated frequently in the main loop() function."));
 #endif
 
-}
+} //end setup()
 
 
 
@@ -237,12 +244,10 @@ void loop() {
 
 
 
-
-
   //==============================
   //==========READ STC31==========
   //==============================
-  //minimum update rate = ?
+  //minimum update rate = 1Hz
 
 
   if (mySTC3x.setRelativeHumidity(RH) == false)
@@ -266,8 +271,6 @@ void loop() {
 
 
 
-
-
   //==============================
   //==========READ SGP40==========
   //==============================
@@ -284,8 +287,6 @@ void loop() {
   //=====DEBUG TURNED OFF=========
   //==============================
 #else
-
-
   //==============================
   //==========READ SHTC3==========
   //==============================
@@ -314,10 +315,11 @@ void loop() {
   }
 
 
+
   //==============================
   //==========READ STC31==========
   //==============================
-  //minimum update rate = ?
+  //minimum update rate = 1Hz
 
 
   if (mySTC3x.setRelativeHumidity(RH) == false)
@@ -359,6 +361,8 @@ void loop() {
     Serial.print(",");
   }
 
+
+
   //==============================
   //==========READ SGP40==========
   //==============================
@@ -366,16 +370,19 @@ void loop() {
 
   Serial.println(mySGP40.getVOCindex()); //Get the VOC Index using the default RH (50%) and T (25C)
 
-
 #endif
+
+
 
   //================================
   //=========SPACE & DELAY==========
   //================================
-  Serial.println("");// Add some space between readings for the Serial Monitor
+  //Serial.println("");// Uncomment this line to add some space between readings for the Serial Monitor
   delay(1000); //Wait 1 second - the Sensirion VOC algorithm expects a sample rate of 1Hz
 
-}
+}//end loop()
+
+
 
 
 
