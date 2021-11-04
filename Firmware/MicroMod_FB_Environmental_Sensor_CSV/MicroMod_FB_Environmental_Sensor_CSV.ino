@@ -63,10 +63,12 @@ float temperature = 0.00; // Variable to keep track of SHTC3 relative humidity c
 
 
 
+
+
 void setup() {
 
   Serial.begin(115200);
-  while (!Serial) ; // Wait for Serial Monitor/Plotter to open for Processors with Native USB (i.e. SAMD51)
+  //while (!Serial) ; // Wait for Serial Monitor/Plotter to open for Processors with Native USB (i.e. SAMD51)
 
 
 #if DEBUG
