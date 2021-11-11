@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -991,232 +991,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="SparkFun-MicroMod-Function">
-<packages>
-<package name="M.2-CARD-E-22_FUNCTION_STANDARD">
-<wire x1="9.925" y1="0" x2="3.225" y2="0" width="0.0508" layer="51"/>
-<wire x1="2.025" y1="0" x2="-9.925" y2="0" width="0.0508" layer="51"/>
-<wire x1="-9.925" y1="0" x2="-9.925" y2="3.5" width="0.0508" layer="51"/>
-<wire x1="9.925" y1="3.5" x2="9.925" y2="0" width="0.0508" layer="51"/>
-<wire x1="10.4" y1="4" x2="9.925" y2="3.5" width="0.0508" layer="51" curve="84.949116"/>
-<wire x1="-10.4" y1="4" x2="-9.925" y2="3.5" width="0.0508" layer="51" curve="-83.820277"/>
-<smd name="1" x="9.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="2" x="9" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="3" x="8.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="4" x="8.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="5" x="8.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="6" x="8" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="7" x="7.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="8" x="7.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="9" x="7.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="10" x="7" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="11" x="6.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="12" x="6.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="13" x="6.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="14" x="6" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="15" x="5.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="16" x="5.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="17" x="5.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="18" x="5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="19" x="4.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="20" x="4.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="21" x="4.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="22" x="4" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="23" x="3.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="32" x="1.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="33" x="1.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="34" x="1" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="35" x="0.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="36" x="0.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="37" x="0.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="38" x="0" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="39" x="-0.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="40" x="-0.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="41" x="-0.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="42" x="-1" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="43" x="-1.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="44" x="-1.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="45" x="-1.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="46" x="-2" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="47" x="-2.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="48" x="-2.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="49" x="-2.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="50" x="-3" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="51" x="-3.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="52" x="-3.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="53" x="-3.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="54" x="-4" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="55" x="-4.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="56" x="-4.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="57" x="-4.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="58" x="-5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="59" x="-5.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="60" x="-5.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="61" x="-5.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="62" x="-6" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="63" x="-6.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="64" x="-6.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="65" x="-6.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="66" x="-7" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="67" x="-7.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="68" x="-7.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="69" x="-7.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="70" x="-8" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="71" x="-8.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="72" x="-8.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="73" x="-8.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<smd name="74" x="-9" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
-<smd name="75" x="-9.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
-<rectangle x1="-10" y1="2" x2="10" y2="4" layer="39" rot="R180"/>
-<rectangle x1="-10" y1="2" x2="10" y2="4" layer="40" rot="R180"/>
-<rectangle x1="-11" y1="4" x2="11" y2="5.2" layer="40" rot="R180"/>
-<wire x1="3.225" y1="2.9" x2="3.225" y2="0" width="0.0508" layer="51"/>
-<wire x1="2.025" y1="2.9" x2="2.025" y2="0" width="0.0508" layer="51"/>
-<wire x1="3.225" y1="2.9" x2="2.025" y2="2.9" width="0.0508" layer="51" curve="180"/>
-<wire x1="-10.3" y1="0.55" x2="10.7" y2="0.55" width="0.02" layer="51"/>
-<text x="-0.02" y="-1" size="0.762" layer="46" ratio="15" rot="R180" align="center">Chamfered Edge</text>
-<wire x1="10.58" y1="-0.8" x2="9.98" y2="-0.2" width="0.1016" layer="46"/>
-<wire x1="9.98" y1="-0.2" x2="9.98" y2="-0.6" width="0.1016" layer="46"/>
-<wire x1="9.98" y1="-0.2" x2="10.38" y2="-0.2" width="0.1016" layer="46"/>
-<wire x1="-10.62" y1="-0.8" x2="-10.02" y2="-0.2" width="0.1016" layer="46"/>
-<wire x1="-10.02" y1="-0.2" x2="-10.42" y2="-0.2" width="0.1016" layer="46"/>
-<wire x1="-10.02" y1="-0.2" x2="-10.02" y2="-0.6" width="0.1016" layer="46"/>
-<text x="-0.02" y="-2.27" size="0.762" layer="46" ratio="15" rot="R180" align="center">0.8mm PCB</text>
-<rectangle x1="3.961" y1="3.675" x2="4.601" y2="3.715" layer="21"/>
-<rectangle x1="3.881" y1="3.635" x2="4.681" y2="3.675" layer="21"/>
-<rectangle x1="3.841" y1="3.595" x2="4.681" y2="3.635" layer="21"/>
-<rectangle x1="3.841" y1="3.555" x2="4.681" y2="3.595" layer="21"/>
-<rectangle x1="3.841" y1="3.515" x2="4.681" y2="3.555" layer="21"/>
-<rectangle x1="3.841" y1="3.475" x2="4.681" y2="3.515" layer="21"/>
-<rectangle x1="3.841" y1="3.435" x2="4.641" y2="3.475" layer="21"/>
-<rectangle x1="3.841" y1="3.395" x2="4.121" y2="3.435" layer="21"/>
-<rectangle x1="3.841" y1="3.355" x2="4.121" y2="3.395" layer="21"/>
-<rectangle x1="3.841" y1="3.315" x2="4.121" y2="3.355" layer="21"/>
-<rectangle x1="3.841" y1="3.275" x2="4.441" y2="3.315" layer="21"/>
-<rectangle x1="3.841" y1="3.235" x2="4.521" y2="3.275" layer="21"/>
-<rectangle x1="3.841" y1="3.195" x2="4.521" y2="3.235" layer="21"/>
-<rectangle x1="3.841" y1="3.155" x2="4.521" y2="3.195" layer="21"/>
-<rectangle x1="3.841" y1="3.115" x2="4.521" y2="3.155" layer="21"/>
-<rectangle x1="3.841" y1="3.075" x2="4.521" y2="3.115" layer="21"/>
-<rectangle x1="3.841" y1="3.035" x2="4.481" y2="3.075" layer="21"/>
-<rectangle x1="3.841" y1="2.995" x2="4.121" y2="3.035" layer="21"/>
-<rectangle x1="3.841" y1="2.955" x2="4.121" y2="2.995" layer="21"/>
-<rectangle x1="3.841" y1="2.915" x2="4.121" y2="2.955" layer="21"/>
-<rectangle x1="3.841" y1="2.875" x2="4.601" y2="2.915" layer="21"/>
-<rectangle x1="3.841" y1="2.835" x2="4.681" y2="2.875" layer="21"/>
-<rectangle x1="3.841" y1="2.795" x2="4.681" y2="2.835" layer="21"/>
-<rectangle x1="3.841" y1="2.755" x2="4.681" y2="2.795" layer="21"/>
-<rectangle x1="3.841" y1="2.715" x2="4.681" y2="2.755" layer="21"/>
-<rectangle x1="3.841" y1="2.675" x2="4.681" y2="2.715" layer="21"/>
-<rectangle x1="3.881" y1="2.635" x2="4.641" y2="2.675" layer="21"/>
-<wire x1="-10.4" y1="4" x2="-19" y2="4" width="0.0508" layer="51"/>
-<wire x1="-19" y1="4" x2="-19" y2="65" width="0.0508" layer="51"/>
-<wire x1="10.4" y1="4" x2="19" y2="4" width="0.0508" layer="51"/>
-<wire x1="19" y1="4" x2="19" y2="65" width="0.0508" layer="51"/>
-<wire x1="-19" y1="65" x2="19" y2="65" width="0.0508" layer="51"/>
-<pad name="GND6" x="18" y="46.1" drill="0.3048" diameter="0.6096" rot="R270"/>
-<pad name="GND4" x="18" y="41.9" drill="0.3048" diameter="0.6096" rot="R270"/>
-<pad name="GND5" x="16.7" y="44" drill="0.3048" diameter="0.6096" rot="R270"/>
-<pad name="GND1" x="-18" y="41.9" drill="0.3048" diameter="0.6096" rot="R90"/>
-<pad name="GND3" x="-18" y="46.1" drill="0.3048" diameter="0.6096" rot="R90"/>
-<pad name="GND2" x="-16.7" y="44" drill="0.3048" diameter="0.6096" rot="R90"/>
-<wire x1="19" y1="42.25" x2="19" y2="45.75" width="0.0508" layer="47" curve="-180"/>
-<wire x1="19" y1="42.25" x2="19" y2="45.75" width="0.0508" layer="20" curve="-180"/>
-<wire x1="19" y1="41.25" x2="19" y2="46.75" width="0.0508" layer="47" curve="-180"/>
-<polygon width="0.05" layer="1">
-<vertex x="18.75" y="46.75"/>
-<vertex x="18.75" y="46" curve="90"/>
-<vertex x="17" y="44" curve="90"/>
-<vertex x="18.75" y="42"/>
-<vertex x="18.75" y="41.25" curve="-83.375457"/>
-<vertex x="16.25" y="44" curve="-84.266438"/>
-</polygon>
-<polygon width="0.05" layer="29">
-<vertex x="19" y="46.75"/>
-<vertex x="19" y="45.75" curve="90"/>
-<vertex x="17.25" y="44" curve="90"/>
-<vertex x="19" y="42.25"/>
-<vertex x="19" y="41.25" curve="-90"/>
-<vertex x="16.25" y="44" curve="-90"/>
-</polygon>
-<text x="18.3" y="44" size="0.3" layer="20" rot="R270" align="center">Route
-Out</text>
-<wire x1="18" y1="46.1" x2="18" y2="47.2" width="0.2032" layer="1"/>
-<wire x1="18" y1="46.1" x2="16.7" y2="46.1" width="0.2032" layer="1"/>
-<wire x1="16.7" y1="44" x2="15.8" y2="44" width="0.2032" layer="1"/>
-<wire x1="18" y1="41.9" x2="16.7" y2="41.9" width="0.2032" layer="1"/>
-<wire x1="18" y1="41.9" x2="18" y2="40.8" width="0.2032" layer="1"/>
-<polygon width="0.05" layer="16">
-<vertex x="18.75" y="41.25"/>
-<vertex x="18.75" y="42" curve="-90"/>
-<vertex x="17" y="44" curve="-90"/>
-<vertex x="18.75" y="46"/>
-<vertex x="18.75" y="46.75" curve="83.375457"/>
-<vertex x="16.25" y="44" curve="84.266438"/>
-</polygon>
-<wire x1="18" y1="41.9" x2="18" y2="40.8" width="0.2032" layer="16"/>
-<wire x1="18" y1="41.9" x2="16.7" y2="41.9" width="0.2032" layer="16"/>
-<wire x1="16.7" y1="44" x2="15.8" y2="44" width="0.2032" layer="16"/>
-<wire x1="18" y1="46.1" x2="16.7" y2="46.1" width="0.2032" layer="16"/>
-<wire x1="18" y1="46.1" x2="18" y2="47.2" width="0.2032" layer="16"/>
-<wire x1="-19" y1="45.75" x2="-19" y2="42.25" width="0.0508" layer="47" curve="-180"/>
-<wire x1="-19" y1="45.75" x2="-19" y2="42.25" width="0.0508" layer="20" curve="-180"/>
-<wire x1="-19" y1="46.75" x2="-19" y2="41.25" width="0.0508" layer="47" curve="-180"/>
-<polygon width="0.05" layer="1">
-<vertex x="-18.75" y="41.25"/>
-<vertex x="-18.75" y="42" curve="90"/>
-<vertex x="-17" y="44" curve="90"/>
-<vertex x="-18.75" y="46"/>
-<vertex x="-18.75" y="46.75" curve="-83.375457"/>
-<vertex x="-16.25" y="44" curve="-84.266438"/>
-</polygon>
-<polygon width="0.05" layer="29">
-<vertex x="-19" y="41.25"/>
-<vertex x="-19" y="42.25" curve="90"/>
-<vertex x="-17.25" y="44" curve="90"/>
-<vertex x="-19" y="45.75"/>
-<vertex x="-19" y="46.75" curve="-90"/>
-<vertex x="-16.25" y="44" curve="-90"/>
-</polygon>
-<text x="-18.3" y="44" size="0.3" layer="20" rot="R90" align="center">Route
-Out</text>
-<wire x1="-18" y1="41.9" x2="-18" y2="40.8" width="0.2032" layer="1"/>
-<wire x1="-18" y1="41.9" x2="-16.7" y2="41.9" width="0.2032" layer="1"/>
-<wire x1="-16.7" y1="44" x2="-15.8" y2="44" width="0.2032" layer="1"/>
-<wire x1="-18" y1="46.1" x2="-16.7" y2="46.1" width="0.2032" layer="1"/>
-<wire x1="-18" y1="46.1" x2="-18" y2="47.2" width="0.2032" layer="1"/>
-<polygon width="0.05" layer="16">
-<vertex x="-18.75" y="46.75"/>
-<vertex x="-18.75" y="46" curve="-90"/>
-<vertex x="-17" y="44" curve="-90"/>
-<vertex x="-18.75" y="42"/>
-<vertex x="-18.75" y="41.25" curve="83.375457"/>
-<vertex x="-16.25" y="44" curve="84.266438"/>
-</polygon>
-<wire x1="-18" y1="46.1" x2="-18" y2="47.2" width="0.2032" layer="16"/>
-<wire x1="-18" y1="46.1" x2="-16.7" y2="46.1" width="0.2032" layer="16"/>
-<wire x1="-16.7" y1="44" x2="-15.8" y2="44" width="0.2032" layer="16"/>
-<wire x1="-18" y1="41.9" x2="-16.7" y2="41.9" width="0.2032" layer="16"/>
-<wire x1="-18" y1="41.9" x2="-18" y2="40.8" width="0.2032" layer="16"/>
-<polygon width="0.05" layer="30">
-<vertex x="-19" y="41.25"/>
-<vertex x="-19" y="42.25" curve="90"/>
-<vertex x="-17.25" y="44" curve="90"/>
-<vertex x="-19" y="45.75"/>
-<vertex x="-19" y="46.75" curve="-90"/>
-<vertex x="-16.25" y="44" curve="-90"/>
-</polygon>
-<polygon width="0.05" layer="30">
-<vertex x="19" y="46.75"/>
-<vertex x="19" y="45.75" curve="90"/>
-<vertex x="17.25" y="44" curve="90"/>
-<vertex x="19" y="42.25"/>
-<vertex x="19" y="41.25" curve="-90"/>
-<vertex x="16.25" y="44" curve="-90"/>
-</polygon>
-</package>
-</packages>
-</library>
 <library name="SparkFun-Sensors">
 <description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
 This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
@@ -1367,7 +1141,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
+<package name="0603">
 <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
@@ -5959,6 +5733,228 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-1.462765625" y="2.205984375"/>
 </polygon>
 </package>
+<package name="M.2-CARD-E-22_FUNCTION_STANDARD">
+<wire x1="9.925" y1="0" x2="3.225" y2="0" width="0.0508" layer="51"/>
+<wire x1="2.025" y1="0" x2="-9.925" y2="0" width="0.0508" layer="51"/>
+<wire x1="-9.925" y1="0" x2="-9.925" y2="3.5" width="0.0508" layer="51"/>
+<wire x1="9.925" y1="3.5" x2="9.925" y2="0" width="0.0508" layer="51"/>
+<wire x1="10.4" y1="4" x2="9.925" y2="3.5" width="0.0508" layer="51" curve="84.949116"/>
+<wire x1="-10.4" y1="4" x2="-9.925" y2="3.5" width="0.0508" layer="51" curve="-83.820277"/>
+<smd name="1" x="9.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="2" x="9" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="3" x="8.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="4" x="8.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="5" x="8.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="6" x="8" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="7" x="7.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="8" x="7.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="9" x="7.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="10" x="7" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="11" x="6.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="12" x="6.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="13" x="6.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="14" x="6" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="15" x="5.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="16" x="5.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="17" x="5.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="18" x="5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="19" x="4.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="20" x="4.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="21" x="4.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="22" x="4" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="23" x="3.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="32" x="1.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="33" x="1.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="34" x="1" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="35" x="0.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="36" x="0.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="37" x="0.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="38" x="0" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="39" x="-0.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="40" x="-0.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="41" x="-0.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="42" x="-1" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="43" x="-1.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="44" x="-1.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="45" x="-1.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="46" x="-2" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="47" x="-2.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="48" x="-2.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="49" x="-2.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="50" x="-3" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="51" x="-3.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="52" x="-3.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="53" x="-3.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="54" x="-4" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="55" x="-4.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="56" x="-4.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="57" x="-4.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="58" x="-5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="59" x="-5.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="60" x="-5.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="61" x="-5.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="62" x="-6" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="63" x="-6.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="64" x="-6.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="65" x="-6.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="66" x="-7" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="67" x="-7.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="68" x="-7.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="69" x="-7.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="70" x="-8" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="71" x="-8.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="72" x="-8.5" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="73" x="-8.75" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<smd name="74" x="-9" y="1.525" dx="0.35" dy="1.95" layer="16" cream="no"/>
+<smd name="75" x="-9.25" y="1.275" dx="0.35" dy="1.45" layer="1" rot="R180" cream="no"/>
+<rectangle x1="-10" y1="2" x2="10" y2="4" layer="39" rot="R180"/>
+<rectangle x1="-10" y1="2" x2="10" y2="4" layer="40" rot="R180"/>
+<rectangle x1="-11" y1="4" x2="11" y2="5.2" layer="40" rot="R180"/>
+<wire x1="3.225" y1="2.9" x2="3.225" y2="0" width="0.0508" layer="51"/>
+<wire x1="2.025" y1="2.9" x2="2.025" y2="0" width="0.0508" layer="51"/>
+<wire x1="3.225" y1="2.9" x2="2.025" y2="2.9" width="0.0508" layer="51" curve="180"/>
+<wire x1="-10.3" y1="0.55" x2="10.7" y2="0.55" width="0.02" layer="51"/>
+<text x="-0.02" y="-1" size="0.762" layer="46" ratio="15" rot="R180" align="center">Chamfered Edge</text>
+<wire x1="10.58" y1="-0.8" x2="9.98" y2="-0.2" width="0.1016" layer="46"/>
+<wire x1="9.98" y1="-0.2" x2="9.98" y2="-0.6" width="0.1016" layer="46"/>
+<wire x1="9.98" y1="-0.2" x2="10.38" y2="-0.2" width="0.1016" layer="46"/>
+<wire x1="-10.62" y1="-0.8" x2="-10.02" y2="-0.2" width="0.1016" layer="46"/>
+<wire x1="-10.02" y1="-0.2" x2="-10.42" y2="-0.2" width="0.1016" layer="46"/>
+<wire x1="-10.02" y1="-0.2" x2="-10.02" y2="-0.6" width="0.1016" layer="46"/>
+<text x="-0.02" y="-2.27" size="0.762" layer="46" ratio="15" rot="R180" align="center">0.8mm PCB</text>
+<rectangle x1="3.961" y1="3.675" x2="4.601" y2="3.715" layer="21"/>
+<rectangle x1="3.881" y1="3.635" x2="4.681" y2="3.675" layer="21"/>
+<rectangle x1="3.841" y1="3.595" x2="4.681" y2="3.635" layer="21"/>
+<rectangle x1="3.841" y1="3.555" x2="4.681" y2="3.595" layer="21"/>
+<rectangle x1="3.841" y1="3.515" x2="4.681" y2="3.555" layer="21"/>
+<rectangle x1="3.841" y1="3.475" x2="4.681" y2="3.515" layer="21"/>
+<rectangle x1="3.841" y1="3.435" x2="4.641" y2="3.475" layer="21"/>
+<rectangle x1="3.841" y1="3.395" x2="4.121" y2="3.435" layer="21"/>
+<rectangle x1="3.841" y1="3.355" x2="4.121" y2="3.395" layer="21"/>
+<rectangle x1="3.841" y1="3.315" x2="4.121" y2="3.355" layer="21"/>
+<rectangle x1="3.841" y1="3.275" x2="4.441" y2="3.315" layer="21"/>
+<rectangle x1="3.841" y1="3.235" x2="4.521" y2="3.275" layer="21"/>
+<rectangle x1="3.841" y1="3.195" x2="4.521" y2="3.235" layer="21"/>
+<rectangle x1="3.841" y1="3.155" x2="4.521" y2="3.195" layer="21"/>
+<rectangle x1="3.841" y1="3.115" x2="4.521" y2="3.155" layer="21"/>
+<rectangle x1="3.841" y1="3.075" x2="4.521" y2="3.115" layer="21"/>
+<rectangle x1="3.841" y1="3.035" x2="4.481" y2="3.075" layer="21"/>
+<rectangle x1="3.841" y1="2.995" x2="4.121" y2="3.035" layer="21"/>
+<rectangle x1="3.841" y1="2.955" x2="4.121" y2="2.995" layer="21"/>
+<rectangle x1="3.841" y1="2.915" x2="4.121" y2="2.955" layer="21"/>
+<rectangle x1="3.841" y1="2.875" x2="4.601" y2="2.915" layer="21"/>
+<rectangle x1="3.841" y1="2.835" x2="4.681" y2="2.875" layer="21"/>
+<rectangle x1="3.841" y1="2.795" x2="4.681" y2="2.835" layer="21"/>
+<rectangle x1="3.841" y1="2.755" x2="4.681" y2="2.795" layer="21"/>
+<rectangle x1="3.841" y1="2.715" x2="4.681" y2="2.755" layer="21"/>
+<rectangle x1="3.841" y1="2.675" x2="4.681" y2="2.715" layer="21"/>
+<rectangle x1="3.881" y1="2.635" x2="4.641" y2="2.675" layer="21"/>
+<wire x1="-10.4" y1="4" x2="-19" y2="4" width="0.0508" layer="51"/>
+<wire x1="-19" y1="4" x2="-19" y2="65" width="0.0508" layer="51"/>
+<wire x1="10.4" y1="4" x2="19" y2="4" width="0.0508" layer="51"/>
+<wire x1="19" y1="4" x2="19" y2="65" width="0.0508" layer="51"/>
+<wire x1="-19" y1="65" x2="19" y2="65" width="0.0508" layer="51"/>
+<pad name="GND6" x="18" y="46.1" drill="0.3048" diameter="0.6096" rot="R270"/>
+<pad name="GND4" x="18" y="41.9" drill="0.3048" diameter="0.6096" rot="R270"/>
+<pad name="GND5" x="16.7" y="44" drill="0.3048" diameter="0.6096" rot="R270"/>
+<pad name="GND1" x="-18" y="41.9" drill="0.3048" diameter="0.6096" rot="R90"/>
+<pad name="GND3" x="-18" y="46.1" drill="0.3048" diameter="0.6096" rot="R90"/>
+<pad name="GND2" x="-16.7" y="44" drill="0.3048" diameter="0.6096" rot="R90"/>
+<wire x1="19" y1="42.25" x2="19" y2="45.75" width="0.0508" layer="47" curve="-180"/>
+<wire x1="19" y1="42.25" x2="19" y2="45.75" width="0.0508" layer="20" curve="-180"/>
+<wire x1="19" y1="41.25" x2="19" y2="46.75" width="0.0508" layer="47" curve="-180"/>
+<polygon width="0.05" layer="1">
+<vertex x="18.75" y="46.75"/>
+<vertex x="18.75" y="46" curve="90"/>
+<vertex x="17" y="44" curve="90"/>
+<vertex x="18.75" y="42"/>
+<vertex x="18.75" y="41.25" curve="-83.375457"/>
+<vertex x="16.25" y="44" curve="-84.266438"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="19" y="46.75"/>
+<vertex x="19" y="45.75" curve="90"/>
+<vertex x="17.25" y="44" curve="90"/>
+<vertex x="19" y="42.25"/>
+<vertex x="19" y="41.25" curve="-90"/>
+<vertex x="16.25" y="44" curve="-90"/>
+</polygon>
+<text x="18.3" y="44" size="0.3" layer="20" rot="R270" align="center">Route
+Out</text>
+<wire x1="18" y1="46.1" x2="18" y2="47.2" width="0.2032" layer="1"/>
+<wire x1="18" y1="46.1" x2="16.7" y2="46.1" width="0.2032" layer="1"/>
+<wire x1="16.7" y1="44" x2="15.8" y2="44" width="0.2032" layer="1"/>
+<wire x1="18" y1="41.9" x2="16.7" y2="41.9" width="0.2032" layer="1"/>
+<wire x1="18" y1="41.9" x2="18" y2="40.8" width="0.2032" layer="1"/>
+<polygon width="0.05" layer="16">
+<vertex x="18.75" y="41.25"/>
+<vertex x="18.75" y="42" curve="-90"/>
+<vertex x="17" y="44" curve="-90"/>
+<vertex x="18.75" y="46"/>
+<vertex x="18.75" y="46.75" curve="83.375457"/>
+<vertex x="16.25" y="44" curve="84.266438"/>
+</polygon>
+<wire x1="18" y1="41.9" x2="18" y2="40.8" width="0.2032" layer="16"/>
+<wire x1="18" y1="41.9" x2="16.7" y2="41.9" width="0.2032" layer="16"/>
+<wire x1="16.7" y1="44" x2="15.8" y2="44" width="0.2032" layer="16"/>
+<wire x1="18" y1="46.1" x2="16.7" y2="46.1" width="0.2032" layer="16"/>
+<wire x1="18" y1="46.1" x2="18" y2="47.2" width="0.2032" layer="16"/>
+<wire x1="-19" y1="45.75" x2="-19" y2="42.25" width="0.0508" layer="47" curve="-180"/>
+<wire x1="-19" y1="45.75" x2="-19" y2="42.25" width="0.0508" layer="20" curve="-180"/>
+<wire x1="-19" y1="46.75" x2="-19" y2="41.25" width="0.0508" layer="47" curve="-180"/>
+<polygon width="0.05" layer="1">
+<vertex x="-18.75" y="41.25"/>
+<vertex x="-18.75" y="42" curve="90"/>
+<vertex x="-17" y="44" curve="90"/>
+<vertex x="-18.75" y="46"/>
+<vertex x="-18.75" y="46.75" curve="-83.375457"/>
+<vertex x="-16.25" y="44" curve="-84.266438"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="-19" y="41.25"/>
+<vertex x="-19" y="42.25" curve="90"/>
+<vertex x="-17.25" y="44" curve="90"/>
+<vertex x="-19" y="45.75"/>
+<vertex x="-19" y="46.75" curve="-90"/>
+<vertex x="-16.25" y="44" curve="-90"/>
+</polygon>
+<text x="-18.3" y="44" size="0.3" layer="20" rot="R90" align="center">Route
+Out</text>
+<wire x1="-18" y1="41.9" x2="-18" y2="40.8" width="0.2032" layer="1"/>
+<wire x1="-18" y1="41.9" x2="-16.7" y2="41.9" width="0.2032" layer="1"/>
+<wire x1="-16.7" y1="44" x2="-15.8" y2="44" width="0.2032" layer="1"/>
+<wire x1="-18" y1="46.1" x2="-16.7" y2="46.1" width="0.2032" layer="1"/>
+<wire x1="-18" y1="46.1" x2="-18" y2="47.2" width="0.2032" layer="1"/>
+<polygon width="0.05" layer="16">
+<vertex x="-18.75" y="46.75"/>
+<vertex x="-18.75" y="46" curve="-90"/>
+<vertex x="-17" y="44" curve="-90"/>
+<vertex x="-18.75" y="42"/>
+<vertex x="-18.75" y="41.25" curve="83.375457"/>
+<vertex x="-16.25" y="44" curve="84.266438"/>
+</polygon>
+<wire x1="-18" y1="46.1" x2="-18" y2="47.2" width="0.2032" layer="16"/>
+<wire x1="-18" y1="46.1" x2="-16.7" y2="46.1" width="0.2032" layer="16"/>
+<wire x1="-16.7" y1="44" x2="-15.8" y2="44" width="0.2032" layer="16"/>
+<wire x1="-18" y1="41.9" x2="-16.7" y2="41.9" width="0.2032" layer="16"/>
+<wire x1="-18" y1="41.9" x2="-18" y2="40.8" width="0.2032" layer="16"/>
+<polygon width="0.05" layer="30">
+<vertex x="-19" y="41.25"/>
+<vertex x="-19" y="42.25" curve="90"/>
+<vertex x="-17.25" y="44" curve="90"/>
+<vertex x="-19" y="45.75"/>
+<vertex x="-19" y="46.75" curve="-90"/>
+<vertex x="-16.25" y="44" curve="-90"/>
+</polygon>
+<polygon width="0.05" layer="30">
+<vertex x="19" y="46.75"/>
+<vertex x="19" y="45.75" curve="90"/>
+<vertex x="17.25" y="44" curve="90"/>
+<vertex x="19" y="42.25"/>
+<vertex x="19" y="41.25" curve="-90"/>
+<vertex x="16.25" y="44" curve="-90"/>
+</polygon>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Buzzard">
@@ -6288,16 +6284,16 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="DESIGNER" value="" x="12.7" y="-17.78" size="1.778" layer="27" display="off"/>
 <attribute name="REV" value="" x="12.7" y="-17.78" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="SparkFun-MicroMod-Function" package="M.2-CARD-E-22_FUNCTION_STANDARD" value="MICROMOD_STANDARD" x="0" y="19.05" smashed="yes" rot="R270"/>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="2.2k" x="11.049" y="13.081" smashed="yes" rot="R270">
+<element name="J1" library="SparkFun-MicroMod" package="M.2-CARD-E-22_FUNCTION_STANDARD" value="MICROMOD_FUNCTION_STANDARD" x="0" y="19.05" smashed="yes" rot="R270"/>
+<element name="R1" library="SparkFun-Resistors" package="0603" value="4.7k" x="11.049" y="13.081" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.811" y="13.081" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08272" x="11.049" y="13.081" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" value="2.2k" x="10.287" y="13.081" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="RES-07857" x="11.049" y="13.081" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" x="10.287" y="13.081" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0603" value="2.2k" x="9.017" y="13.081" smashed="yes" rot="R270">
+<element name="R2" library="SparkFun-Resistors" package="0603" value="4.7k" x="9.017" y="13.081" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.779" y="13.081" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-08272" x="9.017" y="13.081" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" value="2.2k" x="8.255" y="13.081" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="RES-07857" x="9.017" y="13.081" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" x="8.255" y="13.081" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="C5" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="16.637" y="31.242" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.075" y="31.242" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -6839,7 +6835,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <approved hash="19,1,15a7a7acde6aa63b"/>
 <approved hash="19,1,f5a1faab6829e8e6"/>
 <approved hash="19,1,132a12e2d74b170e"/>
-<approved hash="23,1,7d211c071c977db1"/>
 </errors>
 </board>
 </drawing>
